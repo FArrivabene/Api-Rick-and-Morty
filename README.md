@@ -11,6 +11,10 @@ O objetivo deste projeto é fornecer um exemplo prático para aprendizagem de co
 1. Clone o repositório para a sua máquina local:
 
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/seu-usuario/seu-repositorio.git
+=======
+git clone https://github.com/FArrivabene/Api-Rick-and-Morty
+>>>>>>> e5f620b04f56acbaf9def90a74a188f710569e1c
 cd seu-repositorio
 ```
