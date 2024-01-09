@@ -27,15 +27,6 @@ const buildResult = (result) => {
   return newObjetct;
 };
 
-const newKeys = {
-  name: "Nome",
-  status: "Status",
-  species: "Espécie",
-  gender: "Gênero",
-  origin: "Planeta de origem",
-  episode: "Episódios",
-};
-
 btnGo.addEventListener("click", async (event) => {
   event.preventDefault();
   const result = await fetchApi(characterId.value);
