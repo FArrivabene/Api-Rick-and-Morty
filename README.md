@@ -1,6 +1,6 @@
 # Consumindo a API do Rick and Morty
 
-Este repositório contém um exemplo simples de como consumir a [API do Rick and Morty](https://rickandmortyapi.com/api) de maneira didática, utilizando JavaScript com `fetch`, `async` e `await`.
+Este repositório contém um exemplo simples de como consumir a [API do Rick and Morty](https://rickandmortyapi.com) de maneira didática, utilizando JavaScript com `fetch`, `async` e `await`.
 
 ## Objetivo
 
