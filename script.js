@@ -2,7 +2,6 @@ const characterId = document.getElementById("characterId");
 const btnGo = document.getElementById("btn-go");
 const btnReset = document.getElementById("btn-reset");
 const content = document.getElementById("content");
-const conteinerResult = document.getElementById("result-style");
 const image = document.getElementById("img");
 
 const fetchApi = (value) => {
@@ -28,15 +27,6 @@ const buildResult = (result) => {
   return newObjetct;
 };
 
-const newKeys = {
-  name: "Nome",
-  status: "Status",
-  species: "Espécie",
-  gender: "Gênero",
-  origin: "Planeta de origem",
-  episode: "Episódios",
-};
-
 btnGo.addEventListener("click", async (event) => {
   event.preventDefault();
   const result = await fetchApi(characterId.value);
@@ -45,3 +35,5 @@ btnGo.addEventListener("click", async (event) => {
   console.log(buildResult(result));
   image.src = `${result.image}`;
 });
+
+btnReset.addEventListener("click", () => location.reload());
